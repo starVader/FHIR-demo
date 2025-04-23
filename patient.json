@@ -1,0 +1,35 @@
+{
+  "resourceType": "Patient",
+  "id": "1",
+  "meta": {
+    "versionId": "3",
+    "lastUpdated": "2025-04-23T09:13:09.284+00:00",
+    "source": "#CBYIG5blVrMcrKC2",
+    "profile": [
+      "http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"
+    ]
+  },
+  "name": [
+    {
+      "use": "official",
+      "family": "Doe",
+      "given": [
+        "John"
+      ]
+    }
+  ],
+  "gender": "male",
+  "birthDate": "1985-02-20",
+  "address": [
+    {
+      "use": "home",
+      "line": [
+        "123 Main Street"
+      ],
+      "city": "Metropolis",
+      "state": "NY",
+      "postalCode": "12345",
+      "country": "USA"
+    }
+  ]
+}
